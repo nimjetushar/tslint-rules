@@ -1,0 +1,26 @@
+{
+  "name": "@fourjs/tslint-rules",
+  "version": "1.0.1",
+  "description": "Standard tslint rules",
+  "main": "tslint.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nimjetushar/tslint-rules.git"
+  },
+  "peerDependencies": {
+    "tslint": "~5.15.0"
+  },
+  "keywords": [
+    "tslint",
+    "typescript"
+  ],
+  "author": "Tushar Nimje",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nimjetushar/tslint-rules/issues"
+  },
+  "homepage": "https://github.com/nimjetushar/tslint-rules#readme"
+}
