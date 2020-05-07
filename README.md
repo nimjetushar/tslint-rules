@@ -1,7 +1,7 @@
 # tslint-rules
-Standard tslint rules 
-
 [![GitHub license](https://img.shields.io/github/license/nimjetushar/tslint-rules)](https://github.com/nimjetushar/tslint-rules/blob/master/LICENSE)
+
+Standard tslint rules 
 
 ## Installation
 
