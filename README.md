@@ -1,6 +1,8 @@
 # tslint-rules
 Standard tslint rules 
 
+[![GitHub license](https://img.shields.io/github/license/nimjetushar/tslint-rules)](https://github.com/nimjetushar/tslint-rules/blob/master/LICENSE)
+
 ## Installation
 
 ` npm i @fourjs/tslint-rules -D `
