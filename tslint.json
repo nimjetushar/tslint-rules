@@ -82,6 +82,7 @@
             "check-whitespace"
         ],
         "prefer-const": true,
+        "prefer-template": true,
         "quotemark": [
             true,
             "single",
@@ -112,8 +113,7 @@
         ],
         "ban": [
             true,
-            "setInterval",
-            "setTimeout"
+            "eval"
         ],
         "ban-types": {
             "options": [
@@ -145,7 +145,7 @@
         ],
         "interface-name": [
             true,
-            "never-prefix"
+            "always-prefix"
         ],
         "jsdoc-format": true,
         "no-inferrable-types": [
@@ -212,15 +212,41 @@
         "prefer-conditional-expression": false,
         "radix": false,
         "trailing-comma": false,
-        "align": false,
+        "align": [
+            true,
+            "arguments",
+            "parameters"
+        ],
         "no-consecutive-blank-lines": false,
-        "space-before-function-paren": false,
+        "space-before-function-paren": [
+            true,
+            {
+                "anonymous": "always",
+                "named": "never"
+            }
+        ],
+        "no-parameter-reassignment": true,
         "ban-comma-operator": false,
         "max-classes-per-file": false,
         "no-angle-bracket-type-assertion": false,
         "no-namespace": false,
         "no-reference": false,
-        "one-variable-per-declaration": false
+        "one-variable-per-declaration": false,
+        "no-duplicate-imports": [
+            true,
+            {
+                "allow-namespace-imports": true
+            }
+        ],
+        "no-this-assignment": [
+            true,
+            {
+                "allowed-names": [
+                    "^self$"
+                ],
+                "allow-destructuring": true
+            }
+        ]
     },
     "rulesDirectory": [
         "codelyzer"
