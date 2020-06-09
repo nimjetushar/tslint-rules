@@ -28,7 +28,10 @@
             true,
             140
         ],
-        "member-access": false,
+        "member-access": [
+            true,
+            "no-public"
+        ],
         "member-ordering": [
             true,
             {
@@ -49,11 +52,7 @@
         "no-bitwise": true,
         "no-console": [
             true,
-            "debug",
-            "info",
-            "time",
-            "timeEnd",
-            "trace"
+            "log"
         ],
         "no-construct": true,
         "no-debugger": true,
@@ -82,7 +81,10 @@
             "check-whitespace"
         ],
         "prefer-const": true,
-        "prefer-template": true,
+        "prefer-template": [
+            true,
+            "allow-single-concat"
+        ],
         "quotemark": [
             true,
             "single",
@@ -160,6 +162,12 @@
             "ignore-template-strings"
         ],
         "no-unnecessary-qualifier": true,
+        "unnecessary-constructor": [
+            true,
+            {
+                "check-super-calls": true
+            }
+        ],
         "object-literal-shorthand": true,
         "semicolon": [
             true,
@@ -203,7 +211,10 @@
             "check-format",
             "allow-leading-underscore"
         ],
-        "arrow-parens": false,
+        "arrow-parens": [
+            true,
+            "ban-single-arg-parens"
+        ],
         "no-conditional-assignment": false,
         "no-object-literal-type-assertion": false,
         "no-submodule-imports": false,
@@ -214,8 +225,8 @@
         "trailing-comma": false,
         "align": [
             true,
-            "arguments",
-            "parameters"
+            "parameters",
+            "statements"
         ],
         "no-consecutive-blank-lines": false,
         "space-before-function-paren": [
@@ -227,7 +238,10 @@
         ],
         "no-parameter-reassignment": true,
         "ban-comma-operator": false,
-        "max-classes-per-file": false,
+        "max-classes-per-file": [
+            true,
+            1
+        ],
         "no-angle-bracket-type-assertion": false,
         "no-namespace": false,
         "no-reference": false,
