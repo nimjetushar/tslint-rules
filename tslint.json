@@ -1,5 +1,8 @@
 {
-    "extends": "tslint:recommended",
+    "extends": [
+        "tslint:recommended",
+        "tslint-eslint-rules"
+    ],
     "rules": {
         "arrow-return-shorthand": true,
         "callable-types": true,
@@ -101,13 +104,6 @@
             "member-variable-declaration"
         ],
         "unified-signatures": true,
-        "no-output-on-prefix": true,
-        "no-input-rename": true,
-        "no-output-rename": true,
-        "use-lifecycle-interface": true,
-        "use-pipe-transform-interface": true,
-        "component-class-suffix": true,
-        "directive-class-suffix": true,
         "no-unnecessary-type-assertion": true,
         "array-type": [
             true,
@@ -228,7 +224,7 @@
             "parameters",
             "statements"
         ],
-        "no-consecutive-blank-lines": false,
+        "no-consecutive-blank-lines": true,
         "space-before-function-paren": [
             true,
             {
@@ -260,9 +256,10 @@
                 ],
                 "allow-destructuring": true
             }
-        ]
+        ],
+        "object-curly-spacing": true
     },
     "rulesDirectory": [
-        "codelyzer"
+        "node_modules/tslint-eslint-rules/dist/rules"
     ]
 }
