@@ -257,9 +257,15 @@
                 "allow-destructuring": true
             }
         ],
-        "object-curly-spacing": true
-    },
-    "rulesDirectory": [
-        "node_modules/tslint-eslint-rules/dist/rules"
-    ]
+        "no-duplicate-switch-case": true,
+        "object-curly-spacing": true,
+        "no-unused-vars": [
+            "error",
+            {
+                "vars": "all",
+                "args": "all",
+                "ignoreRestSiblings": false
+            }
+        ]
+    }
 }

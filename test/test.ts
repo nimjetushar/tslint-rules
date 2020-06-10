@@ -36,4 +36,17 @@ class Test {
             return d * idx;
         });
     }
+
+    private sampleFunction(num: number, t1: number): number {
+        switch (num) {
+            case 1:
+                return num * 1;
+            case 2:
+                return num * 2;
+            case 3:
+                return num * 3;
+            default:
+                return num;
+        }
+    }
 }
