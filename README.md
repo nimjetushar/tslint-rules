@@ -32,3 +32,9 @@ Override rules by adding rules as mentioned below
   ]
 }
 ```
+
+## Peer Dependencies
+
+```
+npm i tslint-eslint-rules -D
+```
