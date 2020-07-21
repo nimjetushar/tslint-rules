@@ -14,10 +14,7 @@ Extend `@fourjs/tslint-rules` to apply rules.
 ```
 {
   "extends": "@fourjs/tslint-rules"
-},
-"rulesDirectory": [
-  "node_modules/tslint-eslint-rules/dist/rules"
-]
+}
 ```
 
 Override rules by adding rules as mentioned below 
@@ -26,15 +23,6 @@ Override rules by adding rules as mentioned below
   "extends": "@fourjs/tslint-rules",
   "rules": {
     // add rules here...
-  },
-  "rulesDirectory": [
-    "node_modules/tslint-eslint-rules/dist/rules"
-  ]
+  }
 }
-```
-
-## Peer Dependencies
-
-```
-npm i tslint-eslint-rules -D
 ```
