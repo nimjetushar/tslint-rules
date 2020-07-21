@@ -1,6 +1,6 @@
 {
   "name": "@fourjs/tslint-rules",
-  "version": "1.4.1",
+  "version": "2.0.0",
   "description": "Standard tslint rules",
   "main": "tslint.json",
   "scripts": {
@@ -12,8 +12,7 @@
     "url": "git+https://github.com/nimjetushar/tslint-rules.git"
   },
   "peerDependencies": {
-    "tslint": "6.1.2",
-    "tslint-eslint-rules": "5.4.0"
+    "tslint": "6.1.2"
   },
   "keywords": [
     "tslint",
@@ -27,7 +26,6 @@
   "homepage": "https://github.com/nimjetushar/tslint-rules#readme",
   "devDependencies": {
     "tslint": "6.1.2",
-    "tslint-eslint-rules": "5.4.0",
     "typescript": "3.9.5"
   }
 }

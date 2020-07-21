@@ -1,7 +1,6 @@
 {
     "extends": [
-        "tslint:recommended",
-        "tslint-eslint-rules"
+        "tslint:recommended"
     ],
     "rules": {
         "arrow-return-shorthand": true,
@@ -267,5 +266,6 @@
                 "ignoreRestSiblings": false
             }
         ]
-    }
+    },
+    "rulesDirectory": "./rules"
 }
