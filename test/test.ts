@@ -31,13 +31,21 @@ class Test {
         });
     }
 
+    accessFunctions(): void {
+        const idx = this.idxMult();
+        console.warn(idx);
+        const num = this.sampleFunction(3);
+        console.error(num);
+        console.info(this.test2);
+    }
+
     private idxMult(): number[] {
         return this.list.map((d, idx) => {
             return d * idx;
         });
     }
 
-    private sampleFunction(num: number, t1: number): number {
+    private sampleFunction(num: number): number {
         switch (num) {
             case 1:
                 return num * 1;
