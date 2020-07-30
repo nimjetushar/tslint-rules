@@ -1,6 +1,6 @@
 {
   "name": "@fourjs/tslint-rules",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Standard tslint rules",
   "main": "tslint.json",
   "scripts": {
@@ -27,6 +27,7 @@
   "devDependencies": {
     "tslib": "2.0.0",
     "tslint": "6.1.2",
+    "tsutils": "3.17.1",
     "typescript": "3.9.7"
   }
 }

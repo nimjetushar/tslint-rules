@@ -73,7 +73,7 @@
         "no-switch-case-fall-through": true,
         "no-unnecessary-initializer": true,
         "no-unused-expression": true,
-        "no-unused-variable": [
+        "no-unused-var": [
             true,
             "check-parameters"
         ],
