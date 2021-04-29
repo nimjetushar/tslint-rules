@@ -1,0 +1,19 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: monthly
+    time: "23:30"
+  open-pull-requests-limit: 40
+  ignore:
+  - dependency-name: typescript
+    versions:
+    - 4.1.3
+    - 4.2.2
+  - dependency-name: tsutils
+    versions:
+    - 3.20.0
+  - dependency-name: tslib
+    versions:
+    - 2.0.3
