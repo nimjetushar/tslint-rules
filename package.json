@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/nimjetushar/tslint-rules#readme",
   "devDependencies": {
-    "tslib": "2.0.0",
+    "tslib": "2.2.0",
     "tslint": "6.1.2",
     "tsutils": "3.17.1",
     "typescript": "3.9.7"
